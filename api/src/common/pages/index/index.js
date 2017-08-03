@@ -2,7 +2,6 @@ import React from 'react'
 import { Button, message, Modal} from 'antd'
 import SearchBar from 'components/searchbar'
 import Table from 'components/table'
-import Switch from 'components/switch'
 import {
     FormModal
 } from 'components/modalForm'
@@ -135,31 +134,25 @@ export default class Music extends React.Component {
     tableHeader = () => {
         return [{
             dataIndex: 'title',
-            title: '歌曲名',
+            title: '地址',
             width: 180,
         }, {
             dataIndex: 'author',
-            title: '歌手',
+            title: '入参',
             width: 180,
         }, {
             dataIndex: 'country',
-            title: '发行国家',
+            title: '出参',
             width: 180,
         }, {
             dataIndex: 'language',
-            title: '语种',
+            title: '访问方式',
             width: 180,
         }, {
             dataIndex: 'publishtime',
-            title: '发行时间',
+            title: '描述',
             width: 180,
-        },
-          // {
-          //   dataIndex: 'publishtime',
-          //   title: '开关',
-          //   width: 180,
-          // },
-        ]
+        }]
     }
 
     add() {

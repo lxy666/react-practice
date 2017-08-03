@@ -28,7 +28,7 @@ export default class Table extends React.Component {
       currentPage,
       data,
     } = props;
-     his.state = {
+     this.state = {
       currentPage,
     }
     this.makeColumns(header, action, headerWidth, data);
@@ -52,7 +52,7 @@ export default class Table extends React.Component {
       this.columns.push({
         key: 'x',
         title: '操作',
-        width: this.props.scroll ? 230 : maxActionCount * 50 + 30,
+        width: this.props.scroll ? 130 : maxActionCount * 50 + 30,
         fixed: this.props.fixed,
         render: (row) => {
           const actions = action(row);
