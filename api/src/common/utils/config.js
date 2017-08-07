@@ -22,22 +22,6 @@ export const musicKindList = [
   {
     value: 21,
     mean: '欧美金曲榜',
-  },
-  {
-    value: 22,
-    mean: '经典老歌榜',
-  },
-  {
-    value: 23,
-    mean: '情歌对唱榜',
-  },
-  {
-    value: 24,
-    mean: '情歌对唱榜',
-  },
-  {
-    value: 25,
-    mean: '情歌对唱榜',
   }
 ]
 
