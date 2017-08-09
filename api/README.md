@@ -6,11 +6,6 @@
 
 [文档地址](http://muyunyun.cn/posts/9bfbdbf4/)
 
-* 小模块展示：
-![](http://files.cnblogs.com/files/MuYunyun/reactSPA.gif)
-* redux在项目中的运用demo展示
-![](http://files.cnblogs.com/files/MuYunyun/todoList.gif)
-
 ### Usage
 ```
 本地运行
